@@ -1,0 +1,31 @@
+.main1{  background-image: url('https://i.ibb.co/GdjwxSY/6794631.jpg');
+    background-size: cover;
+    height: 108vh;
+    
+    border-top-right-radius:120px;
+    border-top-left-radius:120px;
+    border-bottom-right-radius:120px;
+    border-bottom-left-radius:120px;
+  }
+
+  .cards{
+    margin-left: 5%;
+    margin-top: 23%;
+    transform: skewX(6deg);
+    width: 50%;
+    /* margin: 121px; */
+    border: aliceblue;
+    border-style: solid;
+    position: absolute;
+    background-color: #E4C988;
+
+  }
+  .description{
+    font-size: 13px;
+  }
+  @media screen and (min-width: 1286px) {
+  
+ .description{
+  font-size: 23px;
+ }
+}

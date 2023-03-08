@@ -1,10 +1,15 @@
 .nav{  background-image: url('https://i.ibb.co/w0BcWTH/7459145.jpg');
   background-size: cover;
-  height: 100vh;
-  margin-top:20%;
+  height: 144vh;
+  /* margin-top:20%; */
   border-top-left-radius: 120px;
+  -webkit-box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
+-moz-box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
+box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
   border-top-right-radius: 120px;
 }
-body{
-  background:#eeeeee;
+.body{
+  -webkit-box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
+-moz-box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
+box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 }

@@ -13,13 +13,13 @@
   
 } */
 
-.nav-wrapper{
+.nav-wrappers{
   background-image: url('https://i.ibb.co/X5QCq4k/6794619.jpg');
   background-size: cover;
   height: 100vh;
   height: 100vh;
 }
-.nav-links{
+.nav-linkss{
   display: flex;
   /* align-items: center; */
   
@@ -28,7 +28,7 @@
   padding-right: 20px;
   width:100%
 }
-.container{
+.containers{
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -36,12 +36,12 @@
     float: right;
 
 }
-.nav-links li{
+.nav-linkss li{
     justify-content: flex-end;
   list-style: none;
   margin: 0 12px;
 }
-.nav-links li a{
+.nav-linkss li a{
   position: relative;
   color: #333;
   font-size: 20px;
@@ -49,7 +49,7 @@
   padding: 6px 0;
   text-decoration: none;
 }
-.nav-links li a:before{
+.nav-linkss li a:before{
   content: '';
   position: absolute;
   bottom: 0;
@@ -60,18 +60,18 @@
   border-radius: 12px;
   transition: all 0.4s ease;
 }
-.nav-links li a:hover:before{
+.nav-linkss li a:hover:before{
   width: 100%;
 }
 
 
-.nav-links li a:before{
+.nav-linkss li a:before{
   width: 100%;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.6s ease;
 }
-.nav-links li a:hover:before{
+.nav-linkss li a:hover:before{
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -98,10 +98,10 @@ logo{
   border-radius: 10px;
 }
 
-.bars{
+.barss{
   display: none;
 }
-.top{
+.tops{
   display: flex;
   flex-direction: row;
  }
@@ -115,18 +115,18 @@ logo{
   width: 100%;
  }
 @media (max-width:600px) {
-  .nav-wrapper{
+  .nav-wrappers{
     background-position: 20%;
   }
- .top{
+ .tops{
   display: none;
  }
- .bars{
+ .barss{
   display: block;
  }
 }
 @media (max-width:950px) {
-  .nav-wrapper{
+  .nav-wrappers{
     background-position: 20%;
   }
 

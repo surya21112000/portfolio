@@ -18,6 +18,8 @@
 
     "@lottiefiles/react-lottie-player": "^3.5.2",
 
+    "@ramonak/react-progress-bar": "^5.0.3",
+
     "@testing-library/jest-dom": "^5.16.5",
 
     "@testing-library/react": "^13.4.0",
@@ -28,11 +30,21 @@
 
     "react": "^18.2.0",
 
+    "react-animated-text-content": "^1.0.1",
+
+    "react-bootstrap": "^2.7.2",
+
     "react-dom": "^18.2.0",
 
     "react-lottie": "^1.2.3",
 
+    "react-responsive-carousel": "^3.2.23",
+
     "react-scripts": "5.0.1",
+
+    "react-text-transition": "^3.0.2",
+
+    "react-type-animation": "^2.1.2",
 
     "web-vitals": "^2.1.4"
 
