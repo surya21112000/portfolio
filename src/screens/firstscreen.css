@@ -13,3 +13,274 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 -moz-box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 }
+
+.reactjs{
+  height:8rem;
+  width:8rem;
+  background-color :#ffd2d2; 
+  border-width: 7px;
+  border-color:white;
+  border-style: solid;
+  border-radius: 100px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 5%;
+  position: absolute;
+  margin-left: 20%;
+  
+
+}
+.angularIcon{
+  height:170px;
+  width:170px;
+  background-color :#ffd2d2; 
+  border-width: 7px;
+  border-color:white;
+  border-style: solid;
+  border-radius: 100px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 30%;
+  position: absolute;
+  margin-left: 25%;
+  
+
+}
+.nodejsIcon{
+  height:170px;
+  width:170px;
+  background-color :#ffd2d2; 
+  border-width: 7px;
+  border-color:white;
+  border-style: solid;
+  border-radius: 100px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 20%;
+  position: absolute;
+  margin-left: 80%;
+  
+
+}
+.mongoIcon{
+  height:150px;
+  width:150px;
+  background-color :#ffd2d2; 
+  border-width: 7px;
+  border-color:white;
+  border-style: solid;
+  border-radius: 100px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 3%;
+  position: absolute;
+  margin-left: 65%;
+  
+
+}
+.mysqlIcon{
+  height:120px;
+  width:120px;
+  background-color :#ffd2d2; 
+  border-width: 7px;
+  border-color:white;
+  border-style: solid;
+  border-radius: 100px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 30%;
+  position: absolute;
+  margin-left: 60%;
+  
+}
+.rnIcons{
+  height:140px;
+  width:140px;
+  background-color :#ffd2d2; 
+  border-width: 7px;
+  border-color:white;
+  border-style: solid;
+  border-radius: 100px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 20%;
+  position: absolute;
+  margin-left: 10%;
+  
+
+}
+.skillsets{
+  height:40%;
+  width:-webkit-fill-available;
+  background-color :whitesmoke;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  position: absolute;
+  margin-left: 70%;
+  margin-top:47%;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+
+}
+@media screen and (max-width: 600px){
+.nav{
+  height:100vh;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-position: 50%;
+
+}
+.skillsets {
+  height: 35%;
+  width: -webkit-fill-available;
+  background-color: whitesmoke;
+  border-color: white;
+  display: flex;
+  margin-top: 120%;
+  /* align-items: center; */
+  margin-left: 36%;
+  flex-direction: row;
+  border-style: solid;
+  position: absolute;
+  font-size: 11px;
+  margin-left: 40%;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+}
+      .nodejsIcon {
+    height: 100px;
+    width: 100px;
+    right: -38px;
+    top: 190%;
+    border-width: 5px;
+    line-height: 2;
+    font-size: 8px;
+    /* bottom: 122px; */
+    position: absolute;
+}
+        .angularIcon{
+            /* margin-top: 45%; */
+    height: 108px;
+    width: 108px;
+    margin-top: 70%;
+    font-size: 10px;
+    /* right: 213px; */
+    left: 150px;
+    border-width: 5px;
+    line-height: 2;
+    /* bottom: 122px; */
+    position: absolute;
+         }
+         .mongoIcon{
+          height: 100px;
+          width: 100px;
+          right: 10px;
+          border-width: 5px;
+          font-size: 8px;
+          line-height: 2;
+          /* bottom: 122px; */
+          position: absolute;
+          }
+         .mysqlIcon{
+          display: none;
+         }
+      .reactjs{
+      
+        right: 250px;
+        border-width: 5px;
+        line-height: 2;
+        /* bottom: 122px; */
+        position: absolute;
+        }
+        .rnIcons{
+          margin-top: 45%;
+          height: 108px;
+          width: 108px;
+          font-size: 10px;
+          right: 213px;
+          border-width: 5px;
+          line-height: 2;
+          /* bottom: 122px; */
+          position: absolute;
+        }
+}
+@media screen and (max-width: 380px){
+
+.skillsets{
+  margin-top: 100%;
+}
+
+}
+@media screen and (max-width: 400px){
+
+  .skillsets{
+    margin-top: 100%;
+  }
+  .reactjs{
+    height: 110px;
+    width: 110px;
+    right: 210px;
+    border-width: 5px;
+    line-height: 2;
+    /* bottom: 122px; */
+    font-size: 10px;
+    position: absolute;
+    }
+    .mongoIcon{
+      height: 100px;
+      width: 100px;
+      right: 10px;
+      border-width: 5px;
+    line-height: 2;font-size:8px;
+
+      /* bottom: 122px; */
+      position: absolute;
+      }
+      .nodejsIcon{
+        height: 100px;
+        width: 100px;
+        right: -28px;
+        top: 188%;
+        border-width: 5px;
+        /* line-height: 1; */
+        font-size: 8px;
+        /* bottom: 122px; */
+        position: absolute;
+        }
+        .rnIcons{
+          margin-top: 74%;
+          height: 115px;
+          width: 115px;
+          font-size: 9px;
+          right: 162px;
+          border-width: 5px;
+          /* line-height: 2; */
+          /* bottom: 122px; */
+          position: absolute;
+        }
+        .mysqlIcon{
+          margin-top: 74%;
+          height: 115px;
+          width: 115px;
+          font-size: 9px;
+          right: 162px;
+          border-width: 5px;
+          /* line-height: 2; */
+          /* bottom: 122px; */
+          position: absolute;
+        }
+  
+  }
+  @media screen and (min-width: 1286px) {
+  
+ 
+   }

@@ -9,7 +9,7 @@ const ThirdScreen = () => {
     <div className='main1' >
         <div className='cards' >
             
-        <Carousel showThumbs={false}  >
+        <Carousel showThumbs={false} autoPlay useKeyboardArrows showArrows showIndicators showStatus stopOnHover  >
                 <div style={{lineHeight:2}}>
                     <h2 style={{color:"#898121"}}>HR PORTAL</h2>
                     <p  className='description' style={{paddingLeft:5,paddingRight:5}} >The HR Portal Application is an online platform that enables organizations to manage their human resource functions in a more efficient and streamlined manner. The application allows HR professionals to manage various HR processes, such as recruitment, performance management, training, and development, in one centralized location.It can also be used by  employees for applying leaves and see their pending allocated leaves.</p>

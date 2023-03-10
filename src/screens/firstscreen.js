@@ -1,5 +1,5 @@
 
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import '../screens/firstscreen.css'
 import Lottie from 'react-lottie'
 import * as animation from '../screens/react.json'
@@ -19,8 +19,12 @@ export default function FirstScreen() {
     "Color"
   ];
   
+  const [height, setHeight] = useState(0);
 
-  
+  useEffect(() => {
+    setHeight(window.screen.availWidth)
+    
+  })
 const [check,setCheck]= useState(false)
   const defaultOptions = {
     loop: false,
@@ -84,40 +88,25 @@ const [check,setCheck]= useState(false)
     <body style={{background:"#fcde7c"}}> 
    <div style={{marginTop:"0%" ,zIndex:0 ,}}  >
 <div className='nav'>
-<div className="img"  data-aos="zoom-in"    data-aos-duration="1000"
+<div className="reactjs"  data-aos="zoom-in"    data-aos-duration="1000"
     data-aos-easing="ease-in-out" onMouseEnter={()=>{
   setCheck(true)
-}} style={{height:170,width:170,backgroundColor:"#ffd2d2",borderWidth:7,borderRadius:100,borderColor:"white",borderStyle:"solid",display:"flex",alignItems:"center" ,flexDirection:"column",margin:"5%",position:"absolute",marginLeft:"20%"}}>
-<Lottie options={defaultOptions}
-              height={100}
-              width={100}
-      
-            
-              />
+}} >
+<img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"75%"}}></img>
               <p>React</p>
 </div>
-<div className="img" data-aos="zoom-in"  data-aos-delay="700"  data-aos-duration="1000"
-    data-aos-easing="ease-in-out" style={{height:170,width:170,marginLeft:"25%",backgroundColor:"#ffd2d2",borderWidth:7,borderRadius:100,borderColor:"white",borderStyle:"solid",display:"flex",alignItems:"center" ,flexDirection:"column",margin:"30%",position:"absolute"}}>
-<Lottie options={Angular}
-              height={100}
-              width={100}
-              
-              
-              />
+<div className="angularIcon" data-aos="zoom-in"  data-aos-delay="700"  data-aos-duration="1000"
+    data-aos-easing="ease-in-out">
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/640px-Angular_full_color_logo.svg.png' style={{height:"75%"}}></img>
               <p>Angular</p>
 </div>
-<div className="img" data-aos="zoom-in"  data-aos-delay="400"    data-aos-duration="1000"
-    data-aos-easing="ease-in-out" style={{height:170,width:170,backgroundColor:"#ffd2d2",borderWidth:7,borderRadius:100,borderColor:"white",borderStyle:"solid",display:"flex",alignItems:"center" ,flexDirection:"column",margin:"20%",position:"absolute",marginLeft:"80%"}}>
-<Lottie options={Nodejs}
-              height={100}
-              width={100}
-              
-              
-              />
+<div className="nodejsIcon" data-aos="zoom-in"  data-aos-delay="400"    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" >
+<img src='https://i.ibb.co/fCnQPGQ/png-transparent-js-logo-node-logos-and-brands-icon-removebg.png' style={{height:"75%"}}></img>
               <p>Node js</p>
 </div>
-<div className="img" data-aos="zoom-in"  data-aos-delay="200"   data-aos-duration="1000"
-    data-aos-easing="ease-in-out" style={{height:150,width:150,backgroundColor:"#ffd2d2",borderWidth:7,borderRadius:100,borderColor:"white",borderStyle:"solid",display:"flex",alignItems:"center" ,flexDirection:"column",position:"absolute",marginLeft:"65%",marginTop:"3%"}}>
+<div className="mongoIcon" data-aos="zoom-in"  data-aos-delay="200"   data-aos-duration="1000"
+    data-aos-easing="ease-in-out" >
 <Lottie options={mongo}
               height={75}
               width={75}
@@ -126,8 +115,8 @@ const [check,setCheck]= useState(false)
               />
               <p>Mongo DB</p>
 </div>
-<div className="img" data-aos="zoom-in"  data-aos-delay="600"    data-aos-duration="1000"
-    data-aos-easing="ease-in-out" style={{height:120,width:120,backgroundColor:"#ffd2d2",borderWidth:7,borderRadius:100,borderColor:"white",borderStyle:"solid",display:"flex",alignItems:"center" ,flexDirection:"column",margin:"20%",position:"absolute",marginLeft:"60%",marginTop:"30%"}}>
+<div className="mysqlIcon" data-aos="zoom-in"  data-aos-delay="600"    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" >
 <Lottie options={mySql}
               height={60}
               width={60}
@@ -136,18 +125,14 @@ const [check,setCheck]= useState(false)
               />
               <p>MYSQL</p>
 </div>
-<div className="img" data-aos="zoom-in"  data-aos-delay="500"   data-aos-duration="1000"
-    data-aos-easing="ease-in-out" style={{height:140,width:140,backgroundColor:"#ffd2d2",borderWidth:7,borderRadius:100,borderColor:"white",borderStyle:"solid",display:"flex",alignItems:"center" ,flexDirection:"column",margin:"20%",position:"absolute",marginLeft:"6%",marginTop:"28%"}}>
-<Lottie options={defaultOptions}
-              height={70}
-              width={70}
-              
-              
-              />
-              <p>React Native</p>
+<div className="rnIcons" data-aos="zoom-in"  data-aos-delay="500"   data-aos-duration="1000"
+    data-aos-easing="ease-in-out">
+<img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"65%"}}></img>
+
+              <p>ReactNative</p>
 </div>
-<div className="img" 
-     style={{height:"40%",width:"-webkit-fill-available",backgroundColor:"whitesmoke", borderColor:"white",borderStyle:"solid",display:"flex",alignItems:"center" ,flexDirection:"row",position:"absolute",marginLeft:"70%",marginTop:"47%",borderTopLeftRadius:70,borderBottomLeftRadius:70}}>
+<div className="skillsets" 
+    >
       <table cellSpacing={13} style={{position:"relative",marginLeft:35}} >
         <tr>
          <td> <p>React</p></td>

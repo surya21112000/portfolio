@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="App">
 
-      <div className="firstPage" >
+      
    <Nav />
-   <SecondScreen />
-   <FirstScreen /></div>
-   <ThirdScreen />
-   <FourthScreen />
+   
+   
+   
+   
     </div>
   );
 }

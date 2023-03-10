@@ -9,9 +9,12 @@
   }
 
   .cards{
-    margin-left: 5%;
-    margin-top: 23%;
-    transform: skewX(6deg);
+    margin-left: 8%;
+    margin-top: 24%;
+    transform: skewX(9deg);
+    transform: rotate(-1deg);
+    
+    height:52%;
     width: 50%;
     /* margin: 121px; */
     border: aliceblue;

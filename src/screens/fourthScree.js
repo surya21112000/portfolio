@@ -1,6 +1,10 @@
 
+import { faExternalLinkSquare, faPersonBreastfeeding } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { LogoLinkedin } from 'react-ionicons'
 import React from 'react'
 import '../screens/fourthScreen.css'
+
 const FourthScreen = () => {
   return (
    <body style={{background:"#ffd2d2"}} >
@@ -25,12 +29,16 @@ const FourthScreen = () => {
             <span>CONTACT ME</span>
             
           </div>
-          <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+          <div class="app-contact">FOLLOW ME  <br></br>  <LogoLinkedin height='20px' width='20px'  color={"blue"} style={{cursor:"pointer"}} onClick={()=>{
+            window.open("https://www.linkedin.com/in/surya-rengadurai-07ab8624b")
+          }} /></div>
         </div>
         <div class="screen-body-item">
           <div class="app-form">
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="Surya" />
+              <input class="app-form-control" id="title" placeholder="NAME" 
+              style={{color:"#a9a7a7"}}/>
+              
             </div>
             <div class="app-form-group">
               <input class="app-form-control" placeholder="EMAIL" />
@@ -51,7 +59,7 @@ const FourthScreen = () => {
     </div>
   
   </div>
-
+ 
     </div>
 
    </body>

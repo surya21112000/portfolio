@@ -12,6 +12,15 @@
 
   
 } */
+.animated-paragraph{
+  font-size: 85px;
+  position: relative;
+  bottom:0;
+  right: 0;
+  left:0;
+  top:70%;
+  opacity:0.4
+   }
 
 .nav-wrappers{
   background-image: url('https://i.ibb.co/X5QCq4k/6794619.jpg');
@@ -124,10 +133,20 @@ logo{
  .barss{
   display: block;
  }
+ 
 }
-@media (max-width:950px) {
+@media (max-width: 600px){
   .nav-wrappers{
     background-position: 20%;
+    
+  }
+  .animated-paragraph{
+ font-size: 40px;
+ position: relative;
+ bottom:10%;
+ right: 0;
+ left:0;
+ opacity:0.4
   }
 
 }

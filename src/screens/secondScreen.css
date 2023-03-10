@@ -9,4 +9,30 @@
   body{
     background:#eeeeee;
   }
+  .bigContainer{
+width:60%;
+margin-left:3%;
+display: flex;
+  }
   
+  .typewriter{
+    font-size: 20px;
+    position:absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 50%;
+    color:#898121
+  }
+  @media (max-width: 600px){
+    .navs{
+      height: 70vh;
+      /* margin-top: -3%; */
+      background-position-x: 31%;
+      border-top-right-radius: 35px;
+      border-top-left-radius: 35px;
+    }
+    .typewriter{
+      margin-top: 5%;
+      font-size: 8px;
+    }
+  }
