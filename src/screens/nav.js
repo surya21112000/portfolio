@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React, { useState ,useRef} from 'react'
+import React, { useState } from 'react'
 import '../screens/nav.css'
-import { faCoffee, faFilter,faBars, faCross, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 import SecondScreen from './secondScreen';
 import FirstScreen from './firstscreen';
@@ -9,7 +9,7 @@ import ThirdScreen from './thirdScreen';
 import FourthScreen from './fourthScree';
 const Nav = () => {
   const [check,setCheck]= useState(true)
-  const targetRef = useRef(null);
+  
   return (
     <div>
     <div className="nav-wrappers" >

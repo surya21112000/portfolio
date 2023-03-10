@@ -2,23 +2,11 @@
 import React,{useEffect, useState} from 'react'
 import '../screens/firstscreen.css'
 
-import * as animation from '../screens/react.json'
-import * as angularAnimation from '../screens/angular.json'
-import * as nodeJSAnimation from '../screens/nodejs.json'
-import * as mongoAnimation from '../screens/mongodb.json'
-import * as mysqlAnimation from '../screens/mySQl.json'
-import * as reactNativeAnimation from '../screens/reactNative.json'
-import TextTransition, { presets } from "react-text-transition";
+
 import ProgressBar from "@ramonak/react-progress-bar";
 import 'aos/dist/aos.css'
 export default function FirstScreen() {
-  const TEXTS = [
-    "Forest",
-    "Building",
-    "Tree",
-    "Color"
-  ];
-  
+
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
@@ -26,15 +14,7 @@ export default function FirstScreen() {
     
   })
 const [check,setCheck]= useState(false)
-  const defaultOptions = {
-    loop: false,
-    
-    autoplay: true, 
-    animationData: animation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  };
+
 
   
 
