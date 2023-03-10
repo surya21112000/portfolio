@@ -7,13 +7,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import 'aos/dist/aos.css'
 export default function FirstScreen() {
 
-  const [height, setHeight] = useState(0);
-
-  useEffect(() => {
-    setHeight(window.screen.availWidth)
-    
-  })
-
+  
 
 
   
