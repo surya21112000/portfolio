@@ -1,7 +1,7 @@
 
 import React,{useEffect, useState} from 'react'
 import '../screens/firstscreen.css'
-import Lottie from 'react-lottie'
+
 import * as animation from '../screens/react.json'
 import * as angularAnimation from '../screens/angular.json'
 import * as nodeJSAnimation from '../screens/nodejs.json'
@@ -36,51 +36,7 @@ const [check,setCheck]= useState(false)
     }
   };
 
-  const Angular = {
-    loop: false,
-    
-    autoplay: true, 
-    animationData: angularAnimation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  };
-  const Nodejs = {
-    loop: false,
-    
-    autoplay: true, 
-    animationData: nodeJSAnimation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  };
-  const mongo = {
-    loop: false,
-    
-    autoplay: true, 
-    animationData: mongoAnimation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  };
-  const mySql = {
-    loop: false,
-    
-    autoplay: true, 
-    animationData: mysqlAnimation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  };
-  const ReactNative = {
-    loop: false,
-    
-    autoplay: true, 
-    animationData: reactNativeAnimation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  }
+  
 
 
 
