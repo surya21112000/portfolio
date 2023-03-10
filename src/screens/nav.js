@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useState ,useRef} from 'react'
 import '../screens/nav.css'
 import { faCoffee, faFilter,faBars, faCross, faXmark } from '@fortawesome/free-solid-svg-icons'
-import AnimatedText from 'react-animated-text-content';
+
 import SecondScreen from './secondScreen';
 import FirstScreen from './firstscreen';
 import ThirdScreen from './thirdScreen';
@@ -85,27 +85,9 @@ if(targ){
           </li>
         </div>
       </ul>
-      <AnimatedText
-  type="chars" // animate words or chars
-  animation={{
-    x: '200px',
-    y: '-20px',
-    scale: 1.1,
-    ease: 'ease-in-out',
-  }}
-  animationType="wave"
-  interval={0.06}
-  duration={0.8}
-  tag="p"
-  className="animated-paragraph"
-  includeWhiteSpaces
-  threshold={0.1}
-  rootMargin="20%"
- 
-  
->
-  This is Surya
-</AnimatedText>
+
+ <p className='animated-text'> This is Surya </p>
+
 
     </div>
     <div id="target">
