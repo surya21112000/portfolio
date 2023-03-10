@@ -13,7 +13,7 @@ export default function FirstScreen() {
     setHeight(window.screen.availWidth)
     
   })
-const [check,setCheck]= useState(false)
+
 
 
   
@@ -25,35 +25,33 @@ const [check,setCheck]= useState(false)
    <div style={{marginTop:"0%" ,zIndex:0 ,}}  >
 <div className='nav'>
 <div className="reactjs"  data-aos="zoom-in"    data-aos-duration="1000"
-    data-aos-easing="ease-in-out" onMouseEnter={()=>{
-  setCheck(true)
-}} >
-<img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"75%"}}></img>
+    data-aos-easing="ease-in-out" >
+<img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"75%"}} alt="react"></img>
               <p>React</p>
 </div>
 <div className="angularIcon" data-aos="zoom-in"  data-aos-delay="700"  data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/640px-Angular_full_color_logo.svg.png' style={{height:"75%"}}></img>
+<img alt="angular" src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/640px-Angular_full_color_logo.svg.png' style={{height:"75%"}}></img>
               <p>Angular</p>
 </div>
 <div className="nodejsIcon" data-aos="zoom-in"  data-aos-delay="400"    data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<img src='https://i.ibb.co/fCnQPGQ/png-transparent-js-logo-node-logos-and-brands-icon-removebg.png' style={{height:"75%"}}></img>
+<img alt="nodejs" src='https://i.ibb.co/fCnQPGQ/png-transparent-js-logo-node-logos-and-brands-icon-removebg.png' style={{height:"75%"}}></img>
               <p>Node js</p>
 </div>
 <div className="mongoIcon" data-aos="zoom-in"  data-aos-delay="200"   data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<img src='https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png' style={{height:"75%"}}></img>
+<img alt="mondodb"src='https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png' style={{height:"75%"}}></img>
               <p>Mongo DB</p>
 </div>
 <div className="mysqlIcon" data-aos="zoom-in"  data-aos-delay="600"    data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<img src='https://cdn-icons-png.flaticon.com/512/4299/4299956.png' style={{height:"35%"}}></img>
+<img alt="mysql" src='https://cdn-icons-png.flaticon.com/512/4299/4299956.png' style={{height:"35%"}}></img>
               <p>MYSQL</p>
 </div>
 <div className="rnIcons" data-aos="zoom-in"  data-aos-delay="500"   data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-<img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"65%"}}></img>
+<img alt="react-native" src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"65%"}}></img>
 
               <p>ReactNative</p>
 </div>

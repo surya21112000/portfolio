@@ -1,6 +1,4 @@
 
-import { faExternalLinkSquare, faPersonBreastfeeding } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { LogoLinkedin } from 'react-ionicons'
 import React from 'react'
 import '../screens/fourthScreen.css'
