@@ -83,8 +83,8 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 
 }
 .mysqlIcon{
-  height:120px;
-  width:120px;
+  height:110px;
+  width:110px;justify-content: center;
   background-color :#ffd2d2; 
   border-width: 7px;
   border-color:white;

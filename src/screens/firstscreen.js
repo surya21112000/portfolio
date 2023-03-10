@@ -63,22 +63,12 @@ const [check,setCheck]= useState(false)
 </div>
 <div className="mongoIcon" data-aos="zoom-in"  data-aos-delay="200"   data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<Lottie options={mongo}
-              height={75}
-              width={75}
-              
-              
-              />
+<img src='https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png' style={{height:"75%"}}></img>
               <p>Mongo DB</p>
 </div>
 <div className="mysqlIcon" data-aos="zoom-in"  data-aos-delay="600"    data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<Lottie options={mySql}
-              height={60}
-              width={60}
-              
-              
-              />
+<img src='https://cdn-icons-png.flaticon.com/512/4299/4299956.png' style={{height:"35%"}}></img>
               <p>MYSQL</p>
 </div>
 <div className="rnIcons" data-aos="zoom-in"  data-aos-delay="500"   data-aos-duration="1000"
