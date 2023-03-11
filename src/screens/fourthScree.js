@@ -2,11 +2,8 @@
 import { LogoLinkedin } from 'react-ionicons'
 import React,{useState} from 'react'
 import '../screens/fourthScreen.css'
-import Snackbar from '@material-ui/core/Snackbar';
-import MuiAlert from '@material-ui/lab/Alert';
-const Alert = (props) => {
-  return <MuiAlert elevation={6} variant="filled" {...props} />;
-};
+
+
 
 const FourthScreen = () => {
   const [name, setName] = useState('');
@@ -46,9 +43,7 @@ const FourthScreen = () => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 
-  const handleSnackbarClose = () => {
-    setShowSnackbar(false);
-  };
+
 
   return (
    <body style={{background:"#ffd2d2"}} >
@@ -97,15 +92,7 @@ const FourthScreen = () => {
           <LogoLinkedin height={5} />
         </a>
       </div>
-      <Snackbar
-        open={showSnackbar}
-        autoHideDuration={2000}
-        onClose={handleSnackbarClose}
-      >
-        <Alert onClose={handleSnackbarClose} severity="success">
-          Message sent
-        </Alert>
-      </Snackbar>
+     
     </div>
  
     </div>
