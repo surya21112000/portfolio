@@ -23,12 +23,17 @@
     background-color: #E4C988;
 
   }
-  .description{
+  .bullets{
+    padding-bottom: 30px;
+    list-style: none;
+    font-size:10px;
+  }
+  .description{ text-align:center;
     font-size: 13px;
   }
   @media screen and (min-width: 1286px) {
   
- .description{
+ .description{ text-align:center;
   font-size: 23px;
  }
 
@@ -36,62 +41,83 @@
 @media screen and (max-width: 600px){
 
   .main1 {
-    background-image: url(https://i.ibb.co/GdjwxSY/6794631.jpg);
-    background-size: cover;
-    height: 33vh;
-    background-position-x: 52%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    background-image: url(https://i.ibb.co/GdjwxSY/6794631.jpg); background-size: cover; height: 35vh; background-position-x: 50%; border-top-right-radius: 25px; border-top-left-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;
 }
 .cards{
-margin-left: 2%;
-margin-top: 10%;
-transform: skewX(9deg);
-transform: rotate(-1deg);
-height: 25%;
-font-size: 7px;
-width: 57%;
-/* margin: 121px; */
-border: aliceblue;
-border-style: solid;
-position: absolute;
-background-color: #E4C988;
+  margin-left: 1%;
+  margin-top: 6%;
+  transform: skewX(9deg);
+  transform: rotate(-1deg);
+  height: 29%;
+  font-size: 8px;
+  width: 63%;
+  /* margin: 121px; */
+  border: aliceblue;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  background-color: #E4C988;
 }
-.description{
+.description{ text-align:center;
   font-size: 8px;
 }
-
+.bullets{
+  font-size: 7px;
+}
  }
  @media (max-width: 400px){
 
 
   .main1 {
-    background-image: url(https://i.ibb.co/GdjwxSY/6794631.jpg);
-    background-size: cover;
-    height: 33vh;
-    background-position-x: 52%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    background-image: url(https://i.ibb.co/GdjwxSY/6794631.jpg); background-size: cover; height: 35vh; background-position-x: 50%; border-top-right-radius: 25px; border-top-left-radius: 25px px ; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;
 }
 .cards{
-  margin-left: 2%;
-  margin-top: 10%;
+  margin-left: 1%;
+  margin-top: 6%;
   transform: skewX(9deg);
   transform: rotate(-1deg);
-  height: 25%;
+  height: 29%;
   font-size: 7px;
-  width: 57%;
+  width: 63%;
   /* margin: 121px; */
   border: aliceblue;
   border-style: solid;
+  border-width: 5px;
   position: absolute;
   background-color: #E4C988;
   }
-  .description{
-    font-size: 8px;
+  .description{ text-align:center;
+    font-size: 7px;
   }
  }
+ @media (max-width: 365px){
+
+  .cards{
+    margin-left: 1%;
+    margin-top: 6%;
+    transform: skewX(9deg);
+    transform: rotate(-1deg);
+    height: 29%;
+    font-size: 7px;
+    width: 63%;
+    /* margin: 121px; */
+    border: aliceblue;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    background-color: #E4C988;
+    }
+    .description{ text-align:center;
+      font-size: 6px;
+    }
+
+ }
+ @media (max-width: 375px){
+  .description{ text-align:center;
+    font-size: 6px;
+  }
+
+ }
+
+
+   

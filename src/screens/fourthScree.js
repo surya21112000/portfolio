@@ -45,14 +45,16 @@ const FourthScreen = () => {
               <input class="app-form-control" placeholder="CONTACT NO" />
             </div>
             <div class="app-form-group message">
-              <input class="app-form-control" placeholder="MESSAGE" />
+              <input class="app-form-control" placeholder="MESSAGE" /> <br></br>
+              
             </div>
-            <div class="app-form-group buttons">
-              <button class="app-form-button">CANCEL</button>
-              <button class="app-form-button">SEND</button>
-            </div>
+            
+           
+            
           </div>
+          
         </div>
+        
       </div>
     </div>
   

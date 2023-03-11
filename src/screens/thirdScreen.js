@@ -14,7 +14,7 @@ const ThirdScreen = () => {
                     <h2 style={{color:"#898121"}}>HR PORTAL</h2>
                     <p  className='description' style={{paddingLeft:5,paddingRight:5}} >The HR Portal Application is an online platform that enables organizations to manage their human resource functions in a more efficient and streamlined manner. The application allows HR professionals to manage various HR processes, such as recruitment, performance management, training, and development, in one centralized location.It can also be used by  employees for applying leaves and see their pending allocated leaves.</p>
                     <h3 style={{color:'#89812194'}}>Technology used</h3>
-                    <ul style={{paddingBottom:30,fontSize:10,listStyle:"none"}}>
+                    <ul  className="bullets">
                       <li>
                         <p>Angular</p>
                       </li>
@@ -35,7 +35,7 @@ const ThirdScreen = () => {
 
 </p>
                     <h3 style={{color:'#89812194'}}>Technology used</h3>
-                    <ul style={{textDecoration:"none",paddingBottom:30,fontSize:10,listStyle:"none"}}>
+                    <ul className='bullets'>
                       <li>
                         <p>React Native</p>
                       </li>
@@ -60,7 +60,7 @@ The Bookstore Application is an e-commerce platform that allows customers to bro
 
 </p>
                     <h3 style={{color:'#89812194'}}>Technology used</h3>
-                    <ul style={{textDecoration:"none",paddingBottom:30,fontSize:10,listStyle:"none"}}>
+                    <ul className='bullets'>
                       <li>
                         <p>React js</p>
                       </li>

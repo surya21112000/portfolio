@@ -220,41 +220,79 @@
     height: 20px;
     margin: 0 5px;
   }
-  
+  @media (max-width: 400px){
 
-  @media screen and (max-width: 520px) {
-    .screen-body {
-      flex-direction: column;
-    }
-  
-    .screen-body-item.left {
-      margin-bottom: 30px;
-    }
-  
-    .app-title {
-      flex-direction: row;
-    }
-  
-    .app-title span {
-      margin-right: 12px;
-    }
-  
-    .app-title:after {
-      display: none;
-    }
+
   }
+
   
-  @media screen and (max-width: 600px) {
-    .screen-body {
-      padding: 40px;
+  @media screen and (max-width: 500px) {
+
+
+    .main2{
+      background-position-x: 23%;
+    margin-top: 0%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 45px;
+    height: 31vh;
     }
-  
-    .screen-body-item {
-      padding: 0;
+    .app-contact {
+      margin-top: 0%;
+      font-size: 1px;
+      color: #888;
+      line-height: 0;
     }
+    .app-title{
+      font-size: 9px;
+      padding: 0px;
+      left: 10%;
+      position: absolute;
+      
+    }
+    .app-form-control {
+      width: 100%;
+      margin-left:-175%;
+      background: none;
+      border: none;
+      border-bottom: 1.5px solid #666;
+      color: #a9a7a7;
+      font-size: 6px;
+      padding:0px;
+      outline: none;
+      transition: border-color .2s;
+    }
+    .app-form-group{
+      margin-bottom: 0px;
+    }
+    .app-form-group.message {
+      margin-top: 0px;
   }
+    .screen {
+    
+      position: relative;
+      background: #ddd;
+      height: 19vh;
+      border-radius: 15px;
   
-  @media screen and (max-width: 1235px) {
+    }
+
+.screen-body-item {
+  flex: 1 1;
+  padding: 50px;
+  margin-top: -22%;
+}
+    .container{
+    flex: 0 1 700px;
+    padding: 10px;
+    position: relative;
+    width: 50%;
+    /* right: 36px; */
+    height: 17%;
+    top: 31%;
+    right: -49%;
+  }}
+  
+  @media screen and (min-width: 1000px) and (max-width: 1235px) {
  
     .app-contact {
       margin-top: 70%;
