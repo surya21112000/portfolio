@@ -54,27 +54,27 @@ export default function FirstScreen() {
       <table cellSpacing={13} style={{position:"relative",marginLeft:35}} >
         <tr>
          <td> <p>React</p></td>
-         <td><ProgressBar completed={80}  width="400%" /></td>
+         <td><ProgressBar completed={80}  width="200%" /></td>
         </tr>
         <tr>
          <td> <p>Angular</p></td>
-         <td><ProgressBar completed={75}  width="400%"height='20px'  /></td>
+         <td><ProgressBar completed={75}  width="200%"height='20px'  /></td>
         </tr>
         <tr>
          <td> <p>ReactNative</p></td>
-         <td><ProgressBar completed={85}  width="400%" /></td>
+         <td><ProgressBar completed={85}  width="200%" /></td>
         </tr>
         <tr>
          <td> <p>Node js</p></td>
-         <td><ProgressBar completed={70}  width="400%" /></td>
+         <td><ProgressBar completed={70}  width="200%" /></td>
         </tr>
         <tr>
          <td> <p>MongoDB</p></td>
-         <td><ProgressBar completed={75}  width="400%" /></td>
+         <td><ProgressBar completed={75}  width="200%" /></td>
         </tr>
         <tr>
          <td> <p>MySQL</p></td>
-         <td><ProgressBar completed={80}  width="400%" /></td>
+         <td><ProgressBar completed={80}  width="200%" /></td>
         </tr>
      
     

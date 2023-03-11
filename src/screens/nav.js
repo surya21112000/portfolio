@@ -86,7 +86,7 @@ if(targ){
         </div>
       </ul>
 
- <p className='animated-text'> This is Surya </p>
+ <p className='animated-paragraph'> This is Surya </p>
 
 
     </div>

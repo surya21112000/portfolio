@@ -33,6 +33,17 @@ display: flex;
     }
     .typewriter{
       margin-top: 5%;
+      font-size: 11px;
+      text-align: justify;
+      margin-left: 43%;
+    }
+  }
+  @media (max-width: 400px){
+
+    .typewriter{
+      text-align: justify;
+      margin-top: 15%;
+      margin-left: 44%;
       font-size: 8px;
     }
   }
