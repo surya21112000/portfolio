@@ -223,9 +223,7 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 }
 @media screen and (max-width: 400px){
 
-  .skillsets{
-    
-  }
+
   .reactjs{
     height: 110px;
     width: 110px;
