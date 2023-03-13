@@ -117,8 +117,7 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 }
 .skillsets{
   height:40%;
-  min-width:64%;
-  max-width:30%;
+   width:"-webkit-fill-available";
   background-color :whitesmoke;
   border-color: white;
   display: flex;
