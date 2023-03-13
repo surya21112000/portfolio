@@ -20,7 +20,7 @@ export default function FirstScreen() {
 <div className='nav'>
 <div className="reactjs"  data-aos="zoom-in"    data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"75%"}} alt="react"></img>
+<img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'className='reactImg' alt="react"></img>
               <p>React</p>
 </div>
 <div className="angularIcon" data-aos="zoom-in"  data-aos-delay="700"  data-aos-duration="1000"
@@ -30,12 +30,12 @@ export default function FirstScreen() {
 </div>
 <div className="nodejsIcon" data-aos="zoom-in"  data-aos-delay="400"    data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<img alt="nodejs" src='https://i.ibb.co/fCnQPGQ/png-transparent-js-logo-node-logos-and-brands-icon-removebg.png' style={{height:"75%"}}></img>
+<img alt="nodejs" src='https://i.ibb.co/fCnQPGQ/png-transparent-js-logo-node-logos-and-brands-icon-removebg.png' style={{height:"50%"}}></img>
               <p>Node js</p>
 </div>
 <div className="mongoIcon" data-aos="zoom-in"  data-aos-delay="200"   data-aos-duration="1000"
     data-aos-easing="ease-in-out" >
-<img alt="mondodb"src='https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png' style={{height:"75%"}}></img>
+<img alt="mondodb"src='https://cdn.iconscout.com/icon/free/png-256/mongodb-3521676-2945120.png' style={{height:"52%"}}></img>
               <p>Mongo DB</p>
 </div>
 <div className="mysqlIcon" data-aos="zoom-in"  data-aos-delay="600"    data-aos-duration="1000"
@@ -45,7 +45,7 @@ export default function FirstScreen() {
 </div>
 <div className="rnIcons" data-aos="zoom-in"  data-aos-delay="500"   data-aos-duration="1000"
     data-aos-easing="ease-in-out">
-<img alt="react-native" src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"65%"}}></img>
+<img alt="react-native" src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' style={{height:"40%"}}></img>
 
               <p>ReactNative</p>
 </div>

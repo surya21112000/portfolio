@@ -9,10 +9,10 @@ import ThirdScreen from './thirdScreen';
 import FourthScreen from './fourthScree';
 const Nav = () => {
   const [check,setCheck]= useState(true)
-  
+
   return (
     <div>
-    <div className="nav-wrappers" >
+    <div className="nav-wrappers"  >
       <ul className="nav-linkss">
         <div className="toggle-button"></div>
         <div className="containers">

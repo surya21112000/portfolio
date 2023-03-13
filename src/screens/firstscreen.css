@@ -117,7 +117,8 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 }
 .skillsets{
   height:40%;
-  width:-webkit-fill-available;
+  min-width:64%;
+  max-width:30%;
   background-color :whitesmoke;
   border-color: white;
   display: flex;
@@ -141,7 +142,7 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
 }
 .skillsets {
   height: 25%;
-  width: -webkit-fill-available;
+  
   background-color: whitesmoke;
   border-color: white;
   display: flex;
@@ -158,15 +159,16 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
   border-bottom-left-radius: 70px;
 }
       .nodejsIcon {
-    height: 100px;
-    width: 100px;
-    right: -38px;
-    top: 190%;
-    border-width: 5px;
-    line-height: 2;
-    font-size: 8px;
-    /* bottom: 122px; */
-    position: absolute;
+        height: 9%;
+        width: 20%;
+        justify-content: center;
+        right: -38px;
+        top: 185%;
+        border-width: 5px;
+        line-height: 2;
+        font-size: 8px;
+        /* bottom: 122px; */
+        position: absolute;
 }
         .angularIcon{
        /* margin-top: 45%; */
@@ -182,14 +184,15 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
        position: absolute;
          }
          .mongoIcon{
-          height: 100px;
-          width: 100px;
+          height: 10%;
+          width: 21%;
           right: 10px;
           border-width: 5px;
           font-size: 8px;
           line-height: 2;
           /* bottom: 122px; */
           position: absolute;
+          justify-content: center;
           }
          .mysqlIcon{
           display: none;
@@ -197,15 +200,23 @@ box-shadow: 1px 36px 58px -10px rgba(0,0,0,0.45);
       .reactjs{
       
         right: 250px;
+        align-items: center;
         border-width: 5px;
-        line-height: 2;
+        /* line-height: 2; */
+        justify-content: center;
+        height: 10%;
+        width: 23%;
         /* bottom: 122px; */
         position: absolute;
         }
+        .reactImg{
+          height:42%
+        }
         .rnIcons{
           margin-top: 45%;
-          height: 108px;
-          width: 108px;
+          height: 10%;
+          justify-content: center;
+          width: 21%;
           font-size: 10px;
           right: 213px;
           border-width: 5px;
